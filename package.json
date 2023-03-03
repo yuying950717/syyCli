@@ -1,0 +1,28 @@
+{
+  "name": "syy_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "myCli": "./bin/src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && tsc-alias"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.14.4",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "inquirer": "^8.0.0",
+    "loading-cli": "^1.1.0",
+    "node": "^19.6.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./bin",
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@": ["./src"]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+#basic
+node_modules
+
+#build
+bin
